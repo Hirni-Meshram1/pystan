@@ -1,9 +1,9 @@
 language: c
 dist: xenial
 sudo: required
-#arch:
+arch:
   #- amd64
-  #- arm64
+  - arm64
 branches:
   only:
   - master
